@@ -1,0 +1,37 @@
+.todo__item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 25px;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+}
+
+.todo__item-text {
+}
+
+.todo__item-buttons {
+  display: flex;
+  column-gap: 10px;
+}
+
+.todo__item-button {
+  padding: 5px 9px;
+  background-color: #2d3538;
+  border-radius: 5px;
+}
+
+.todo__item-button_complete {
+  background-color: #028502;
+}
+
+.todo__item-button_uncomplete {
+  background-color: #2f6a72;
+}
+
+.todo__item-button_delete {
+  background-color: #ff3434;
+}
+
+.todo__item-button_recover {
+  background-color: #6918c7;
+}
