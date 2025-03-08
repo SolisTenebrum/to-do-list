@@ -28,6 +28,14 @@ function App() {
             </ProtectedRoute>
           }
         />
+        <Route
+          path="*"
+          element={
+            <ProtectedRoute redirectTo="/auth">
+              <TodoList isLoggedIn={isLoggedIn} setIsLoggedIn={setIsLoggedIn} />
+            </ProtectedRoute>
+          }
+        />
       </Routes>
     </>
   );
